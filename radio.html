@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/player.css">
+    <link  rel="icon" href="img/photo_radio.jpg"/>
+    <title>Radio</title>
+</head>
+<body>
+    <main id="centent">
+        <header>
+            <img src="img/photo_radio.jpg" >
+            <h2>LIVE RADIO</h2>
+            <p id="title">Biskra</p>
+        </header>
+    <div id="div">
+        <article id="photo_button_audio">
+            <audio src="https://biskra.ice.infomaniak.ch/07.aac" id="file_audio"></audio>
+            <img src="img/back.png" id="back">
+            <img src="img/play.png" id="play">
+            <img src="img/next.png" id="next">
+        </article>
+        <article id="volume_speed">
+            <h2>الصوت</h2>
+            <input type="range" id="volume">
+            <h2>السرعة</h2>
+            <input type="range" id="speed">
+        </article>
+        <article id="button_changeColor">
+            <h2>تغيير لون الخلفية</h2>
+            <button id="color1"></button>
+            <button id="color2"></button>
+            <button id="color3"></button>
+            <button id="color4"></button>
+        </article>
+    </div>
+    </main>
+    <script src="script/player.js"></script>
+    <script src="script/volume.js"></script>
+    <script src="script/speed.js"></script>
+    <script src="script/color.js"></script>
+</body>
+</html>

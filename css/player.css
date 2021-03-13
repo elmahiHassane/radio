@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+}
+#centent{
+    width: 400px;
+    background-color: rgb(233, 49, 49);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#centent header{
+    margin-top: 15px;
+    height: 325.6px;
+    text-align: center;
+}
+header img{
+    border-radius: 30px;
+    height: 200px;
+}
+header h2{
+    margin: 15px 0px;
+    color: white;
+}
+header p{
+    color: white;
+}
+#div{
+    background-color: whitesmoke;
+}
+#photo_button_audio{
+    display: flex;
+    justify-content: center;
+}
+#photo_button_audio img{
+    width: 40px;
+    margin: 15px 15px;
+}
+#volume_speed{
+    text-align: center;
+}
+#volume_speed h2{
+    margin: 15px 0px;
+}
+#volume_speed input{
+    text-align: center;
+    width: 90%;
+    border-radius: 15px;
+}
+input[type="range" i] {
+    -webkit-appearance: none;
+    background: rgb(43, 39, 39);
+    height: 8px;
+    margin: 0%;
+}
+input[type="range" i]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: rgb(102, 96, 99);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+#button_changeColor{
+    text-align: center;
+    margin: 30px 0px;
+}
+#button_changeColor h2{
+    margin-bottom: 15px;
+}
+#button_changeColor button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:0px 5px;
+    outline: 0px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+#color1{
+    background-color: cornflowerblue;
+}
+#color2{
+    background-color: crimson;
+}
+#color3{
+    background-color: darkgoldenrod;
+}
+#color4{
+    background-color: darkmagenta;
+}
+
+
