@@ -8,4 +8,3 @@ class speed{
     }
 }
 onload=new speed();
-let variable.name="hvhvsvs";
